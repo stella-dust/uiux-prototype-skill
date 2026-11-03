@@ -1,0 +1,4 @@
+interface:
+  display_name: "UIUX Prototype"
+  short_description: "Product UI prototypes: research, approve, build, version"
+  default_prompt: "Use $uiux-prototype-skill to research product UI references and create a style-reference HTML for my approval before building the full prototype."
