@@ -1,47 +1,53 @@
 # UIUX Prototype Skill
 
-**先看案例，选定方向，再交付完整的产品 UI 原型。**
+**Research real examples, choose a direction, then build a complete product UI prototype.**
+
+[简体中文](README.zh-CN.md)
 
 [![skills.sh](https://skills.sh/b/stella-dust/uiux-prototype-skill)](https://skills.sh/stella-dust/uiux-prototype-skill)
 [![Release](https://img.shields.io/github/v/release/stella-dust/uiux-prototype-skill)](https://github.com/stella-dust/uiux-prototype-skill/releases)
 [![License: MIT](https://img.shields.io/badge/License-MIT-315d44.svg)](LICENSE)
 
-![从真实案例研究、用户选择到完整 HTML 原型的三阶段工作流](docs/images/workflow.svg)
+A design skill for **web applications, mini programs, mobile apps and desktop apps**. It organizes interfaces around users' tasks and produces a browsable, reviewable, versioned HTML prototype before application implementation. Posters, slide decks and marketing-only landing pages are outside its main scope.
 
-面向 **Web 应用、小程序、移动 App 和桌面 App** 的设计 skill。它围绕真实用户的任务组织界面，在开发应用前，先交付一套可浏览、可讨论、可版本管理的 HTML 原型。海报、PPT 和营销落地页不属于它的主要范围。
+It brings together principles from [Emil Kowalski skills](https://github.com/emilkowalski/skills), [Taste Skill](https://github.com/Leonxlnx/taste-skill), [UI/UX Pro Max](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill), [Anthropic frontend-design](https://github.com/anthropics/skills/tree/main/skills/frontend-design), [Impeccable](https://github.com/pbakaus/impeccable), [Hallmark](https://github.com/nutlope/hallmark) and [UXKIN](https://github.com/uxkin/agent), supplemented by [Stageshow](https://github.com/benjitaylor/skills/tree/main/stageshow), [shadcn](https://github.com/shadcn-ui/ui/tree/main/skills/shadcn) and [Web Design Reviewer](https://github.com/github/awesome-copilot/tree/main/skills/web-design-reviewer). This original synthesis covers **31 source skills** and works independently: upstream installations and paid reference services are optional. See the [contribution map and conflict decisions](skills/uiux-prototype-skill/references/source-synthesis.md) and [source and license records](THIRD_PARTY_NOTICES.md).
 
-它整合了 Emil Kowalski、Taste Skill、UI/UX Pro Max、Anthropic frontend-design、Impeccable、Hallmark、UXKIN 的适用原则，补充 Stageshow、shadcn 和 Web Design Reviewer，共 **31 个来源 skills**。这是面向产品应用的原创整合，独立运行，不需要再安装上游 skills，也不绑定付费服务。[逐项映射与冲突处理](skills/uiux-prototype-skill/references/source-synthesis.md) · [来源与许可](THIRD_PARTY_NOTICES.md)
+![Original product UI specimens showing web, mini program, mobile and desktop interface treatments](docs/images/product-ui-showcase.png)
 
-## 工作方式
+The showcase above is an original illustrative specimen. It demonstrates the intended interface craft and platform differences; it is not a generated user project or a connected application. Its editable HTML source is [docs/ui-showcase.html](docs/ui-showcase.html).
 
-1. **理解产品。** 读取项目的 AGENTS.md、HANDOFF.md、DESIGN.md 和现有界面，明确用户、场景、入口、处理路径、结果、本轮页面与端的范围。
-2. **研究并展示风格。** 优先 Dribbble，备选即时设计、Behance；记录实际看见的作品、作者、来源、访问情况和可迁移规则。通常给出 2–3 个有实质区别的方向，先交付 `style-reference.html`。
-3. **等用户拍板。** 选择一个方向、要求融合或修改。页面里的预览按钮不会自动批准，也不会启动完整原型制作。
-4. **生成完整 HTML 原型。** 交付原型首页、可视化 UI 设计规范、DESIGN.md，以及本轮所有目标端的应用界面和关键流程。
-5. **浏览器检查并封版。** 检查实际交互、状态、长内容、响应式、键盘、减少动态效果等，记录验证范围与仍未解决的问题，保留旧版本。
+## Workflow
 
-![原创风格参考示意：同一工单任务的三种界面语言](docs/images/style-reference.png)
+![Reference research, user direction decision and complete HTML prototype workflow](docs/images/workflow.svg)
 
-[查看可交互的风格参考示例](docs/style-reference-example.html)。下载仓库后用浏览器打开，或按下文启动本地服务。图片和示例界面均为本仓库原创；它们解释工作方式，**不冒充一次真实案例研究或已获批准的项目设计**。
+1. **Understand the product.** Read the project's AGENTS.md, HANDOFF.md, DESIGN.md and existing interfaces. Establish users, scenarios, entry points, task paths, outcomes, screens and target platforms for this version.
+2. **Research and present directions.** Start with Dribbble; use js.design Community and Behance as alternatives. Record the actual works inspected, their creators, source links, access limits and transferable decisions. Normally compare 2-3 meaningfully different directions in `style-reference.html`.
+3. **Wait for the user's decision.** The user can choose a direction, request a blend or ask for revisions. A preview control inside the HTML cannot grant approval or start full prototype development.
+4. **Build the complete HTML prototype.** Deliver a prototype home, rendered UI design specification, DESIGN.md and the agreed application interfaces and critical flows for every target platform in scope.
+5. **Check in a browser and seal the version.** Exercise interactions, states, extreme content, responsive layouts, keyboard access and reduced motion. Record the actual verification scope and unresolved issues, while preserving earlier versions.
 
-## 安装
+![Original style-reference example comparing three visual directions for the same service-request task](docs/images/style-reference-en.png)
 
-需要能读取 Agent Skills 的工具。下面的市场 CLI 需要 Node.js 22.20+；原型版本助手仅需 Python 3.10+、无需第三方 Python 包。
+[Open the interactive style-reference example](docs/style-reference-example.en.html). Download the repository and open the file in a browser, or use the local server below. This original example explains the workflow; it does not represent completed real-case research or an approved project design.
 
-**Codex，全局安装：**
+## Install
+
+Use an agent that supports Agent Skills. The marketplace CLI below requires Node.js 22.20+. The prototype version helper needs only Python 3.10+ and the standard library.
+
+**Codex, global installation:**
 
 ```bash
 npx skills@latest add stella-dust/uiux-prototype-skill \
   --skill uiux-prototype-skill -g -a codex -y
 ```
 
-**其他支持的 agent / 自行选择安装范围：**
+**Other supported agents, or interactive scope selection:**
 
 ```bash
 npx skills@latest add stella-dust/uiux-prototype-skill
 ```
 
-**固定到本次正式版本：**
+**Pin to the published release:**
 
 ```bash
 npx skills@latest add \
@@ -49,51 +55,54 @@ npx skills@latest add \
   -g -a codex -y
 ```
 
-CLI 的 Codex 全局目录现为 `~/.agents/skills/`。部分 Codex 环境使用 `~/.codex/skills/`；手动安装时，把仓库中的 `skills/uiux-prototype-skill/` 整个目录复制到环境实际读取的目录即可。先检查同名 skill，避免两个目录重复安装；更新前保存旧副本，别直接覆盖定制内容。
+The CLI's Codex global directory is `~/.agents/skills/`. Some Codex environments use `~/.codex/skills/`; for manual installation, copy the entire `skills/uiux-prototype-skill/` directory into the directory your environment reads. Check for an existing skill with the same name before installing in a second location. Preserve a copy before updating customized files.
 
-[CLI 官方安装参数](https://github.com/vercel-labs/skills/blob/main/docs/commands.md) · [各 agent 路径](https://github.com/vercel-labs/skills/blob/main/docs/agents.md)
+[Official CLI installation options](https://github.com/vercel-labs/skills/blob/main/docs/commands.md) · [Agent installation paths](https://github.com/vercel-labs/skills/blob/main/docs/agents.md)
 
-## 开始使用
+## Use it in a project
 
-在项目中调用：
-
-```text
-使用 $uiux-prototype-skill 为我们的住户服务产品设计原型。
-目标端是微信小程序和 Web 管理端。
-先读现有产品文档和 DESIGN.md，保留品牌蓝色。
-先做案例研究和风格参考 HTML，等我选定方向再开发完整原型。
-```
-
-已有产品也可以这样描述：
+For a new prototype:
 
 ```text
-使用 $uiux-prototype-skill 打磨现有工单界面。
-保留信息架构和品牌，改善密度、状态、错误恢复与跨端适配。
-先展示风格方向和变化依据，不要从零重设计。
+Use $uiux-prototype-skill to design a prototype for our resident services product.
+Target a WeChat mini program and a web management app.
+Read the existing product documents and DESIGN.md first, and preserve our brand blue.
+Research references and deliver the style-reference HTML first.
+Wait for me to choose a direction before developing the complete prototype.
 ```
 
-批准后的下一轮：
+For an existing product:
 
 ```text
-选择方向 B，保留它的布局、字体与密度，按当前风格参考开发完整原型。
+Use $uiux-prototype-skill to polish our existing service-request interface.
+Preserve the information architecture and brand. Improve density, states,
+error recovery and cross-platform adaptation.
+Show the proposed direction and its evidence before changing the full prototype.
 ```
 
-默认允许 agent 自动发现这个 skill；也可显式调用。它会根据项目和需求确定本轮要覆盖的端，而不是为任何产品强造四套应用。若你需要四端，在需求里写清楚。
+After reviewing the actual style-reference HTML:
 
-## 交付目录
+```text
+I choose direction B. Preserve its layout, typography and density.
+Build the complete prototype from the current style-reference version.
+```
+
+Automatic skill discovery is enabled by default; explicit invocation also works. The skill selects platforms from the project and request. It does not invent four applications for every product. Specify all four if that is the required scope.
+
+## Deliverables
 
 ```text
 project/docs/prototype/
-├── index.html                         # 保留版本的导航
+├── index.html                         # Navigation across retained versions
 ├── CHANGELOG.md
 └── versions/v0.1.0/
-    ├── manifest.json                  # 方向、批准记录、状态和封版指纹
-    ├── style-reference.html           # 先交付，等你选择
-    ├── references.json                # 研究来源与观察范围
-    ├── index.html                     # 原型导航首页
-    ├── design-system.html             # 可视化规范和实际组件状态
-    ├── DESIGN.md                      # 设计契约与精确 token
-    ├── QA.md                          # 实际检查与边界
+    ├── manifest.json                  # Direction, approval, state and sealed hashes
+    ├── style-reference.html           # Delivered before the user chooses
+    ├── references.json                # Sources and actual inspection scope
+    ├── index.html                     # Prototype navigation home
+    ├── design-system.html             # Rendered specification and component states
+    ├── DESIGN.md                      # Design contract and exact token values
+    ├── QA.md                          # Actual checks and verification limits
     ├── assets/
     ├── web/{index.html,DESIGN.md}
     ├── miniapp/{index.html,DESIGN.md}
@@ -101,29 +110,33 @@ project/docs/prototype/
     └── desktop/{index.html,DESIGN.md}
 ```
 
-只生成本轮要求的端。每端可以多页，也可以在 HTML 内实现路由和状态；首页包含应用入口，不是只有一张静态封面。规范覆盖本轮用到的颜色、字阶、间距、密度、布局、图标、组件、状态、动效、无障碍和平台差异。
+Only the requested platforms are generated. Each can use multiple pages or HTML-based routing and states. Its home is a working application entry point, not just a static cover. The specification covers the colors, type scale, spacing, density, layouts, icons, components, states, motion, accessibility and platform differences actually used in the version.
 
-## 原型版本助手
+![Original rendered design-system specimens showing semantic colors, type, spacing and component states](docs/images/design-system-showcase.png)
 
-工具管理流程和文件，不会自动设计界面。以下在仓库根目录运行；安装后把脚本路径换成安装目录的绝对路径。`--project` 是实际应用项目根目录。
+This design-system image is another original illustrative specimen, with editable source in [docs/ui-showcase.html](docs/ui-showcase.html). It shows how a specification can present real rendered examples alongside exact values; it is not a claim that a user project has been generated or approved.
+
+## Prototype version helper
+
+The helper manages workflow and files; it does not design interfaces automatically. Run these commands from the repository root. After installation, replace the script path with the absolute path inside the installed skill. `--project` must point to the application project's root.
 
 ```bash
 python3 skills/uiux-prototype-skill/scripts/prototype.py init \
   --project /path/to/project --version v0.1.0 --surfaces web miniapp
 ```
 
-此时只有风格参考草稿和 manifest。agent 必须先完成研究、替换草稿并等用户选择。之后记录**用户真实原话**：
+This creates only a style-reference draft and a manifest. The agent must research real cases, replace the draft and obtain the user's direction decision. Then record the user's **actual words**:
 
 ```bash
 python3 skills/uiux-prototype-skill/scripts/prototype.py record-approval \
   --project /path/to/project --version v0.1.0 \
-  --direction B --evidence "用户明确批准该版本方向 B 的真实原话"
+  --direction B --evidence "The user's actual approval of direction B for this version"
 
 python3 skills/uiux-prototype-skill/scripts/prototype.py prepare \
   --project /path/to/project --version v0.1.0
 ```
 
-`prepare` 生成待设计脚手架，不能当作完成的原型。替换草稿，走通约定流程并做浏览器检查后：
+`prepare` creates pending design scaffolds. These are not completed prototypes. Replace them, implement the agreed flows and inspect the result in a browser before running:
 
 ```bash
 python3 skills/uiux-prototype-skill/scripts/prototype.py validate \
@@ -131,56 +144,52 @@ python3 skills/uiux-prototype-skill/scripts/prototype.py validate \
 
 python3 skills/uiux-prototype-skill/scripts/prototype.py seal \
   --project /path/to/project --version v0.1.0 \
-  --summary "填写实际浏览器、视口、操作结果和未验证项"
+  --summary "Record the actual browser, viewports, interaction results and unverified items"
 ```
 
-工具会检查批准对应的风格 HTML 指纹、必需文件、草稿标记、本地 HTML 链接、研究 JSON 语法、符号链接/路径越界，以及封版后的文件变化。修改风格参考会使批准失效；旧版本不覆盖。`record-approval` 只保存调用方给出的记录，不验证身份；`seal` 是可检测变化的约定，不是操作系统锁定，也不是视觉验收。
+Checks cover the approved style HTML's fingerprint, required files, pending scaffold markers, local HTML links, reference JSON syntax, symlinks, paths escaping the version directory and file changes after sealing. Editing the style-reference HTML invalidates its approval. Existing versions are not overwritten.
 
-本地浏览（示例）：
+`record-approval` stores evidence provided by its caller; it does not authenticate the person giving approval. `seal` creates a change-detectable snapshot convention, not an operating-system lock or a visual sign-off.
+
+To browse a prototype locally:
 
 ```bash
 python3 -m http.server 8765 --bind 127.0.0.1 --directory /path/to/project/docs/prototype
 ```
 
-再打开 `http://127.0.0.1:8765/versions/v0.1.0/`。仓库中的风格示意也可以通过同样方式以 `--directory docs` 预览。
+Open `http://127.0.0.1:8765/versions/v0.1.0/`. To preview this repository's examples, use `--directory docs` instead, then open the relevant HTML file.
 
-## 整合的取舍
+## What the synthesis keeps
 
-| 来源 | 留下的关键能力 |
+| Source | Adopted decisions |
 |---|---|
-| Emil Kowalski，16 skills | 是否需要动效、频率/曲线/时长/源点、中断、性能、边界内容、原生感、成熟组件选择 |
-| Taste Skill | 从需求推断方向、尊重品牌、真实素材与浏览器自查 |
-| UI/UX Pro Max | 产品类型、语义 token、字体/色彩/布局、跨端规范和 UX 反模式 |
-| Anthropic frontend-design | 有目的的视觉选择和统一的实现，不接受模板默认值 |
-| Impeccable | 分层审计、去冗余、可访问性、状态、响应式和有证据的修正 |
-| Hallmark | 案例/素材真实性、主任务优先、保留原有功能、分级质量门槛 |
-| UXKIN，7 skills | 真实产品研究、状态覆盖、设计契约、截图对比和各端工作流 |
-| Stageshow / shadcn / Web reviewer | 可审阅产品场景、复用已有组件、实际浏览器反馈 |
+| [Emil Kowalski skills](https://github.com/emilkowalski/skills), 16 skills | Whether motion is useful; frequency, easing, duration, origin, interruption and performance; extreme content; native feel; mature component selection |
+| [Taste Skill](https://github.com/Leonxlnx/taste-skill) | Infer direction from the brief, respect the brand, use credible material and inspect the browser result |
+| [UI/UX Pro Max](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | Product context, semantic tokens, type, color, layout, cross-platform specifications and UX anti-patterns |
+| [Anthropic frontend-design](https://github.com/anthropics/skills/tree/main/skills/frontend-design) | Intentional visual choices and coherent implementation instead of templated defaults |
+| [Impeccable](https://github.com/pbakaus/impeccable) | Prioritized audits, less redundant UI, accessibility, states, responsiveness and evidence-based fixes |
+| [Hallmark](https://github.com/nutlope/hallmark) | Traceable cases and assets, primary-task clarity, retained functionality and tiered quality checks |
+| [UXKIN](https://github.com/uxkin/agent), 7 skills | Real product research, state coverage, design contracts, screenshot comparison and platform workflows |
+| [Stageshow](https://github.com/benjitaylor/skills/tree/main/stageshow) / [shadcn](https://github.com/shadcn-ui/ui/tree/main/skills/shadcn) / [Web Design Reviewer](https://github.com/github/awesome-copilot/tree/main/skills/web-design-reviewer) | Reviewable product scenarios, reuse of existing components and feedback from actual browser rendering |
 
-舍弃与应用 UI 不相容的营销页分区定额、颜色/字体一刀切禁令、随机选主题和无条件装依赖。正式品牌、真实任务和平台约束优先；动效服务操作，不能阻碍高频任务。所有来源的具体映射和版本证据见 [source-synthesis.md](skills/uiux-prototype-skill/references/source-synthesis.md)。
+Marketing-page section quotas, blanket color or font bans, randomly selected themes and unconditional dependency installation do not become product UI rules. The established brand, real tasks and platform constraints take priority. Motion supports interaction without delaying frequent tasks. The [source synthesis](skills/uiux-prototype-skill/references/source-synthesis.md) records each contribution, conflict decision and source revision limit.
 
-## 验证与边界
+## Verification and boundaries
 
 ```bash
 python3 -m unittest discover -s tests -v
 ```
 
-测试覆盖批准门禁、批准指纹失效、旧版保护、跨端文件、本地链接、越界/符号链接、QA/研究记录、未完成脚手架和封版变更检测。流程检查不能替代风格判断；HTML、浏览器模拟和本地状态不证明小程序宿主、原生 SDK、支付、发送、后台写入、正式上线或业务效果。
+Tests cover approval gating and fingerprint invalidation, previous-version preservation, platform files, local links, path and symlink boundaries, QA and research records, unfinished scaffolds and post-seal changes. Workflow checks cannot replace visual judgment. HTML, browser simulation and local state do not prove mini program host behavior, native SDK support, payments, message sending, backend writes, production deployment or business outcomes.
 
-Dribbble、即时设计和 Behance 可能有登录或访问限制；skill 会记录实际结果并使用可用备选。第三方截图的可浏览性不代表再分发许可。UXKIN 的账号/套餐是可选的参考增强，不是基础依赖。
+Dribbble, js.design Community and Behance may restrict access or require login. The skill records actual access results and uses available alternatives. Being able to view a third-party screenshot does not grant redistribution rights. A UXKIN account or plan can supplement research but is not a base dependency.
 
-## 发布和市场收录
+## Releases and skills.sh
 
-源代码和正式版本发布在 [GitHub](https://github.com/stella-dust/uiux-prototype-skill)。按 [skills.sh 官方 FAQ](https://skills.sh/docs/faq)，目录通过正常安装遥测自动收录，没有独立的人工发包步骤；公开仓库不等于榜单立即可见，收录时间由平台决定。本项目不通过重复安装制造计数。
+Source and versioned releases are published on [GitHub](https://github.com/stella-dust/uiux-prototype-skill). The [skills.sh FAQ](https://skills.sh/docs/faq) describes automatic discovery through normal installation telemetry rather than a separate manual package submission. A public repository does not prove immediate leaderboard visibility; indexing is controlled by the platform. This project does not manufacture installation counts through repeated installs.
 
-见 [CHANGELOG.md](CHANGELOG.md) 和 [发布记录](https://github.com/stella-dust/uiux-prototype-skill/releases)。欢迎提交具体场景、复现步骤、原型范围和浏览器证据，改进 skill，而不是把一次偏好写成全局规则。
-
-## English
-
-A self-contained product UI skill for web apps, mini programs, mobile and desktop. It researches real references (Dribbble first), delivers a style-reference HTML for the user's explicit decision, then produces versioned HTML app prototypes, a rendered design system and DESIGN.md. It combines 31 source skills without requiring them as dependencies. The Python helper protects workflow and file integrity; it does not authenticate approval, design screens automatically or prove production readiness.
-
-Install with `npx skills@latest add stella-dust/uiux-prototype-skill --skill uiux-prototype-skill -g -a codex -y`, then invoke `$uiux-prototype-skill` in your project.
+See [CHANGELOG.md](CHANGELOG.md) and the [release history](https://github.com/stella-dust/uiux-prototype-skill/releases). Useful contributions include a concrete scenario, reproduction steps, prototype scope and browser evidence, so changes follow observed needs rather than turning one preference into a universal rule.
 
 ## License
 
-本仓库原创指令、版本助手与演示采用 [MIT](LICENSE)。上游项目保留各自许可证，未复制其脚本、组件、主题库或作品图。[THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)
+The original instructions, version helper and demonstration materials use the [MIT license](LICENSE). Upstream projects retain their own licenses; their scripts, components, theme libraries and reference images are not copied into this repository. See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
