@@ -167,7 +167,7 @@ To browse a prototype locally:
 python3 -m http.server 8765 --bind 127.0.0.1 --directory /path/to/project/docs/prototype
 ```
 
-Open `http://127.0.0.1:8765/versions/v0.1.0/`. To preview this repository's examples, use `--directory docs` instead, then open the relevant HTML file.
+Open `http://127.0.0.1:8765/versions/v0.1.0/`. The workflow illustrations can be previewed with `--directory docs`. To run the three complete product cases, serve the repository root and open `/examples/` as described above.
 
 ## What the synthesis keeps
 

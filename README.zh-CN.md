@@ -158,7 +158,7 @@ python3 skills/uiux-prototype-skill/scripts/prototype.py seal \
 python3 -m http.server 8765 --bind 127.0.0.1 --directory /path/to/project/docs/prototype
 ```
 
-再打开 `http://127.0.0.1:8765/versions/v0.1.0/`。仓库中的风格示意也可以通过同样方式以 `--directory docs` 预览。
+再打开 `http://127.0.0.1:8765/versions/v0.1.0/`。仓库中的风格示意可以用 `--directory docs` 预览；三个完整产品案例则按上文方式从仓库根目录启动服务，再打开 `/examples/`。
 
 ## 整合的取舍
 
