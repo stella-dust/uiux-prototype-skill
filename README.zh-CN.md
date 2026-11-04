@@ -14,15 +14,19 @@
 
 它整合了 [Emil Kowalski](https://github.com/emilkowalski/skills)、[Taste Skill](https://github.com/Leonxlnx/taste-skill)、[UI/UX Pro Max](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill)、[Anthropic frontend-design](https://github.com/anthropics/skills/tree/main/skills/frontend-design)、[Impeccable](https://github.com/pbakaus/impeccable)、[Hallmark](https://github.com/nutlope/hallmark)、[UXKIN](https://github.com/uxkin/agent) 的适用原则，补充 [Stageshow](https://github.com/benjitaylor/skills/tree/main/stageshow)、[shadcn](https://github.com/shadcn-ui/ui/tree/main/skills/shadcn) 和 [Web Design Reviewer](https://github.com/github/awesome-copilot/tree/main/skills/web-design-reviewer)，共 **31 个来源 skills**。这是面向产品应用的原创整合，独立运行，不需要再安装上游 skills，也不绑定付费服务。[逐项映射与冲突处理](skills/uiux-prototype-skill/references/source-synthesis.md) · [来源与许可](THIRD_PARTY_NOTICES.md)
 
-## 界面示例
+## 三个完整案例
 
-![同一套设计语言下的 Web 工作台、桌面详情与移动端服务流程](docs/images/product-ui-showcase.png)
+使用这个 skill 制作的三个原创、可交互 HTML 原型。点击配图可查看完整分辨率。
 
-同一任务在不同端采用合适的密度、导航和操作路径，共享颜色、字体和组件状态。
+| Roam · 移动端 | Pulse · Web 端 | Arc Library · 桌面应用 |
+|---|---|---|
+| [![Roam 原创产品界面案例](docs/images/cases/01-roam-mobile.png)](docs/images/cases/01-roam-mobile.png) | [![Pulse 原创产品界面案例](docs/images/cases/02-pulse-web.png)](docs/images/cases/02-pulse-web.png) | [![Arc Library 原创产品界面案例](docs/images/cases/03-arc-desktop.png)](docs/images/cases/03-arc-desktop.png) |
+| 轻旅行发现、行程详情与计划收藏 | 创意团队项目、产能与协作工作台 | 素材浏览、集合管理与元数据检查器 |
+| [原型源码](examples/roam-mobile/docs/prototype/versions/v0.1.0/mobile/index.html) · [设计规范](examples/roam-mobile/docs/prototype/versions/v0.1.0/design-system.html) | [原型源码](examples/pulse-web/docs/prototype/versions/v0.1.0/web/index.html) · [设计规范](examples/pulse-web/docs/prototype/versions/v0.1.0/design-system.html) | [原型源码](examples/arc-desktop/docs/prototype/versions/v0.1.0/desktop/index.html) · [设计规范](examples/arc-desktop/docs/prototype/versions/v0.1.0/design-system.html) |
 
-![可视化设计规范示意：语义色、字阶、表单、按钮与组件状态](docs/images/design-system-showcase.png)
+每个案例都保留风格参考 HTML、来源观察、共享与各端 DESIGN.md、可视化 UI 规范、浏览器 QA 和封版指纹。界面图形均为原创；海岸主视觉为原创生成的虚构场景。案例使用演示数据与本地交互。
 
-规范页展示实际渲染的组件与状态，并与界面、DESIGN.md 使用同一套设计决定。[查看可编辑的配图源文件](docs/ui-showcase.html)。这些配图是原创界面示意，用于说明交付形态；当前 skill 不附带一个已经接通后端的成品应用。
+[查看全部案例源码](examples/README.zh-CN.md)。克隆仓库后，在根目录运行 `python3 -m http.server 8765 --bind 127.0.0.1`，再打开 [localhost:8765/examples/](http://localhost:8765/examples/)。GitHub 中的 HTML 链接显示源码，本地服务用于运行界面。
 
 ## 工作方式
 

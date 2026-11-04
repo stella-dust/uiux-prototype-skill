@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "tool_version": "1.0.0",
+  "version": "v0.1.0",
+  "state": "sealed",
+  "created_at": "2026-11-04T06:29:02+00:00",
+  "surfaces": [
+    "desktop"
+  ],
+  "deliverable_paths": [
+    "style-reference.html",
+    "index.html",
+    "design-system.html",
+    "DESIGN.md",
+    "QA.md",
+    "references.json",
+    "desktop/index.html",
+    "desktop/DESIGN.md"
+  ],
+  "approval": {
+    "direction": "Midnight Studio",
+    "evidence": "由你定风格，直接完成三个案例",
+    "by": "user (explicit style-selection delegation)",
+    "recorded_at": "2026-11-04T06:29:53+00:00",
+    "style_reference_sha256": "1e1e7388756ce45ca7512bc026d585fdac019fc3207699cd1447862db4ab52f1",
+    "meaning": "A record of a user decision supplied by the caller, not independently verified consent."
+  },
+  "approval_history": [
+    {
+      "direction": "Midnight Studio",
+      "evidence": "由你定风格，直接完成三个案例",
+      "by": "user (explicit style-selection delegation)",
+      "recorded_at": "2026-11-04T06:29:53+00:00",
+      "style_reference_sha256": "1e1e7388756ce45ca7512bc026d585fdac019fc3207699cd1447862db4ab52f1",
+      "meaning": "A record of a user decision supplied by the caller, not independently verified consent."
+    }
+  ],
+  "scope": "HTML prototype; no backend or production integration implied",
+  "prepared_at": "2026-11-04T06:29:53+00:00",
+  "sealed_at": "2026-11-04T06:48:07+00:00",
+  "validation_summary": "Root in-app browser checked agreed flows and rendered specification; exact viewports and limitations recorded in QA.md. Local synthetic HTML prototype, no native/backend/production acceptance.",
+  "sealed_artifact_sha256": {
+    "DESIGN.md": "de5a2be95b0b510fe97f231105491858d6c8ba6a8c03d9cde3e1d5c567e6f045",
+    "QA.md": "99fcc170c86273f353ed6e22107529ac7e330c5fb60fb90d45306e355111e703",
+    "assets/app.css": "174809aea1ef2028e6f3b63b21d98e30cbc382e2d2c5718a7c2668c2440c6874",
+    "assets/app.js": "abcb4991b58f896fbafe0b8a8d6253938492c03842a01f70f4f738f41ce7b9f6",
+    "assets/art/field-notes.svg": "09b4c5dac3d04b8a6531c0359dadae467828d37752fc610f6f986552f863b06c",
+    "assets/art/forma.svg": "0a196067e976cadbaeb5762406de1458d0f4703538a34877c474020c5c608f58",
+    "assets/art/grid-study.svg": "682f09891c994237ceade3a540f402e4a53bad7982af12b0dc13cd2b51d9ee89",
+    "assets/art/interlude.svg": "0adbb111a23220fc92c26822b01094b668d1fa3433d8f8c53e4e41f489e56945",
+    "assets/art/lumen.svg": "5c69082817bc205881d40f33c932021e27e3705d977ee8659ac2025b110bf28e",
+    "assets/art/mono.svg": "7ebbbf4f8b635b8281a8320bc0a579c76887b7d1a52d5e96a379540416d21340",
+    "assets/art/motion-forms.svg": "002d9cd53f06d59513b9b3be4d795bedd00da56ef2e9d26421402c1a20a04538",
+    "assets/art/nocturne.svg": "4b5c522afac6139da7189b3f56a2ac76c6e0704bc2a76f41b9bb9b2f4ac26caf",
+    "assets/art/orbit.svg": "ba6bf4da47784dd7ef7d7882dd14d8c2009dc13bda88bc0b5059279b65f16499",
+    "assets/art/soft-systems.svg": "c22884ec30775606dde8b55cbc422e60fc6c1ea01330113aa2435137fd2e66a7",
+    "assets/art/sonder.svg": "0342eee0147326880657de19689039ad333a178b5c4d1267d4c54097d73274e8",
+    "assets/art/tidal.svg": "cdde375b75511ff0f732b2ae7d7b5c8a25f6fe279c16e7940715476b9d492fdd",
+    "assets/tokens.css": "d8ccdc8d4306af6632b29ff652b4a8ef04389cdb9d088e1a45f26e0358c933c1",
+    "design-system.html": "85ded7618040dfcda4178a19fc6b444583433cdf3048a5a1d97ec84894b6b06c",
+    "desktop/DESIGN.md": "78f5ef8c6881490f9c1c91a770ba80c2b787be56dd4386d36ea3a944a8cf31e1",
+    "desktop/index.html": "62499061f6c7604fba2bdd2524ce238c6fea77613b42a4f893ede6badaa27567",
+    "index.html": "786bce6ea5718dd946eb00212be275a52b426e40c263e7a5336a488f6a025905",
+    "references.json": "37bfc84e646158fc6b0b5b04a2a5e093dc0312d59739124f81b8f7e54c850c8e",
+    "style-reference.html": "1e1e7388756ce45ca7512bc026d585fdac019fc3207699cd1447862db4ab52f1"
+  }
+}

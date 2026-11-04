@@ -1,0 +1,50 @@
+{
+  "sources": [
+    {
+      "url": "https://dribbble.com/shots/6977385-Cargo-Dashboard-Dark-mode",
+      "title": "Cargo Dashboard Dark mode",
+      "creator": "Juless Design",
+      "observed": "深蓝深色画布，窄导航图标栏、中心图像网格和右侧信息区域；亮色操作按钮独立突出。",
+      "adaptation": "借鉴图像优先和三栏层次；采用石墨灰而非蓝紫色，不复制其数字资产、图形或数据。",
+      "accessed_at": "2026-11-04",
+      "source": "Dribbble",
+      "inspection": "image-viewed",
+      "inspection_method": "Chrome browser screenshot via cua_repl; artwork and creator heading visibly inspected",
+      "asset_rights": "Reference link only. Upstream screenshots/artwork not bundled; all prototype thumbnails original SVG."
+    },
+    {
+      "url": "https://dribbble.com/shots/10930081-Digital-Asset-Manager-Foyer-Group",
+      "title": "Digital Asset Manager - Foyer Group",
+      "creator": "Geoffrey Crofte",
+      "observed": "左侧 Recent files/Favorites/Collections/Categories，顶部搜索，中央照片卡片，有网格/列表切换；画面下方展示收藏/下载浮层。",
+      "adaptation": "用收藏、集合、搜索与视图切换构成实际找图路径；原创艺术缩略图与深色界面。",
+      "accessed_at": "2026-11-04",
+      "source": "Dribbble",
+      "inspection": "image-viewed",
+      "inspection_method": "Chrome browser screenshot via cua_repl; artwork and creator heading visibly inspected",
+      "asset_rights": "Reference link only. Upstream screenshots/artwork not bundled; all prototype thumbnails original SVG."
+    },
+    {
+      "url": "https://dribbble.com/shots/16035180-DAM-Platform-Asset-Detailed-Information-Concept",
+      "title": "DAM Platform - Asset Detailed Information Concept",
+      "creator": "Thuan Nguyen",
+      "observed": "大幅彩色图像预览，右侧 Actions，图像下方分布类型、大小、尺寸等元数据；页顶有细节标签。",
+      "adaptation": "在常驻检查器展示缩略预览和元数据；空格打开大图，保持集合语境，不复制其图像或系统命令。",
+      "accessed_at": "2026-11-04",
+      "source": "Dribbble",
+      "inspection": "image-viewed",
+      "inspection_method": "Chrome browser screenshot via cua_repl; artwork and creator heading visibly inspected",
+      "asset_rights": "Reference link only. Upstream screenshots/artwork not bundled; all prototype thumbnails original SVG."
+    }
+  ],
+  "search_trail": [
+    "https://dribbble.com/search/files-and-assets",
+    "https://dribbble.com/tags/digital-asset-management"
+  ],
+  "decision": {
+    "direction": "Midnight Studio",
+    "delegation": "由你定风格，直接完成三个案例",
+    "chosen_by": "assistant under explicit current user delegation"
+  },
+  "limits": "Static Dribbble shots inspected, not author working applications or usability studies."
+}

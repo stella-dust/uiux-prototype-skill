@@ -1,0 +1,24 @@
+[
+  {
+    "url": "https://dribbble.com/shots/18010934-Moove-Plan-Itinerary-Light-Mode",
+    "title": "Moove - Plan Itinerary (Light Mode)",
+    "creator": "Agensip - Startup MVP Design Partner",
+    "accessed_at": "2026-11-04",
+    "source": "Dribbble",
+    "inspection": "image-viewed",
+    "observed": "Viewed 800px source image. White mobile sheets, restrained orange active tab and primary button, day-based itinerary rows, small destination images, action-sheet treatment. Fine body copy is intentionally not interpreted as product requirements.",
+    "adaptation": "Keep a single useful orange action and a plain, readable day timeline; replace their dashboard density with editorial discovery and warm paper.",
+    "asset_rights": "Reference only; upstream image and kit are not included in the deliverable."
+  },
+  {
+    "url": "https://dribbble.com/shots/27201135-Travel-Itinerary-Planner-Mobile-App-Design",
+    "title": "Travel Itinerary Planner Mobile App Design",
+    "creator": "Ronas IT | UI/UX Team",
+    "accessed_at": "2026-11-04",
+    "source": "Dribbble",
+    "inspection": "page-text-only",
+    "observed": "Read the individual work description and palette. Author describes immersive landscape discovery and warm sunset accents. Image was not available through the inspected page; no visual claims are made.",
+    "adaptation": "Consider immersive destination discovery as an alternative. Choose readable warm paper instead of its described dark background.",
+    "asset_rights": "Linked research only; no source assets copied."
+  }
+]

@@ -1,0 +1,61 @@
+{
+  "research_date": "2026-11-04",
+  "priority": "Dribbble first",
+  "scope": "Creative studio projects and team capacity, web product",
+  "sources": [
+    {
+      "url": "https://dribbble.com/shots/27574945-Studio-Agency-Project-Management-Dashboard",
+      "title": "Studio - Agency Project Management Dashboard",
+      "creator": "Dodik Danang for Korsa",
+      "creator_url": "https://dribbble.com/dodikdanang",
+      "team_url": "https://dribbble.com/korsaagency",
+      "accessed_at": "2026-11-04",
+      "source": "Dribbble",
+      "inspection": "image-viewed",
+      "inspection_method": "Opened individual work in Chrome, then viewed first page-exposed CDN image via browser screenshot.",
+      "image_url": "https://cdn.dribbble.com/userupload/48443371/file/34999985c764e8120cd3b25a839729cc.png?resize=752x&vertical=center",
+      "observed": [
+        "Narrow pale sidebar, strong black agency-operations heading.",
+        "Compact project table and team-capacity rows share the main column; a right activity column adds context.",
+        "Near-white border-defined surfaces, small colored status indicators."
+      ],
+      "adaptation": [
+        "Use dense studio navigation, compact project rows and a distinct capacity panel.",
+        "Replace financial telemetry with project delivery and workload; original warm paper, ink and cobalt tokens."
+      ],
+      "asset_rights": "Public reference, redistribution license not established. Linked only; no third-party image bundled or hotlinked."
+    },
+    {
+      "url": "https://dribbble.com/shots/26904547-Project-Workspace-Dashboard-UI",
+      "title": "Project Workspace Dashboard UI",
+      "creator": "Jason D",
+      "creator_url": "https://dribbble.com/jasonuxui",
+      "accessed_at": "2026-11-04",
+      "source": "Dribbble",
+      "inspection": "image-viewed",
+      "inspection_method": "Opened individual work in Chrome, then viewed first page-exposed CDN image via browser screenshot.",
+      "image_url": "https://cdn.dribbble.com/userupload/46126878/file/f2e29e7fb2eb42f6d21b6f2dc6bd9a98.png?resize=752x&vertical=center",
+      "observed": [
+        "Pale shell, project cards with status, progress, owners and dates.",
+        "Filter chips above project cards and separate menu grouped by status and members.",
+        "Cobalt framing contrasts with a monochrome app."
+      ],
+      "adaptation": [
+        "Working card/list switch, status/team filters and visible ownership.",
+        "Keep cobalt on actions and selected controls rather than decorative framing."
+      ],
+      "asset_rights": "Public reference, redistribution license not established. Linked only; original HTML/CSS/SVG throughout."
+    }
+  ],
+  "selected_direction": {
+    "name": "Ink & Cadence",
+    "choice_made_by": "assistant under explicit user delegation",
+    "evidence": "由你定风格，直接完成三个案例",
+    "rationale": "Warm paper and ink create calm editorial hierarchy; cobalt marks action, lilac marks one capacity allocation."
+  },
+  "limitations": [
+    "Concept shots are not proof of shipped usability.",
+    "Two directly relevant works inspected; not complete external product flows.",
+    "No third-party image, font or icon redistributed."
+  ]
+}

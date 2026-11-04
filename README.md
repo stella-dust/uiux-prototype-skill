@@ -12,9 +12,19 @@ A design skill for **web applications, mini programs, mobile apps and desktop ap
 
 It brings together principles from [Emil Kowalski skills](https://github.com/emilkowalski/skills), [Taste Skill](https://github.com/Leonxlnx/taste-skill), [UI/UX Pro Max](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill), [Anthropic frontend-design](https://github.com/anthropics/skills/tree/main/skills/frontend-design), [Impeccable](https://github.com/pbakaus/impeccable), [Hallmark](https://github.com/nutlope/hallmark) and [UXKIN](https://github.com/uxkin/agent), supplemented by [Stageshow](https://github.com/benjitaylor/skills/tree/main/stageshow), [shadcn](https://github.com/shadcn-ui/ui/tree/main/skills/shadcn) and [Web Design Reviewer](https://github.com/github/awesome-copilot/tree/main/skills/web-design-reviewer). This original synthesis covers **31 source skills** and works independently: upstream installations and paid reference services are optional. See the [contribution map and conflict decisions](skills/uiux-prototype-skill/references/source-synthesis.md) and [source and license records](THIRD_PARTY_NOTICES.md).
 
-![Original product UI specimens showing web, mini program, mobile and desktop interface treatments](docs/images/product-ui-showcase.png)
+## Case studies
 
-The showcase above is an original illustrative specimen. It demonstrates the intended interface craft and platform differences; it is not a generated user project or a connected application. Its editable HTML source is [docs/ui-showcase.html](docs/ui-showcase.html).
+Three original, interactive HTML prototypes made with this skill. Click a preview to inspect the full-resolution image.
+
+| Roam · Mobile | Pulse · Web | Arc Library · Desktop |
+|---|---|---|
+| [![Roam original product UI case](docs/images/cases/01-roam-mobile.png)](docs/images/cases/01-roam-mobile.png) | [![Pulse original product UI case](docs/images/cases/02-pulse-web.png)](docs/images/cases/02-pulse-web.png) | [![Arc Library original product UI case](docs/images/cases/03-arc-desktop.png)](docs/images/cases/03-arc-desktop.png) |
+| Nearby trips, itineraries and saved plans | Studio projects, capacity and collaboration | Creative assets, collections and metadata |
+| [App source](examples/roam-mobile/docs/prototype/versions/v0.1.0/mobile/index.html) · [Design system](examples/roam-mobile/docs/prototype/versions/v0.1.0/design-system.html) | [App source](examples/pulse-web/docs/prototype/versions/v0.1.0/web/index.html) · [Design system](examples/pulse-web/docs/prototype/versions/v0.1.0/design-system.html) | [App source](examples/arc-desktop/docs/prototype/versions/v0.1.0/desktop/index.html) · [Design system](examples/arc-desktop/docs/prototype/versions/v0.1.0/design-system.html) |
+
+Each case includes its style-reference HTML, source observations, shared and platform-specific DESIGN.md, a rendered UI specification, browser QA and a sealed version manifest. The UI artwork is original; the coastal hero is a generated fictional scene. These are synthetic demonstrations with local interactions.
+
+[Browse all example sources](examples/README.md). To run the gallery, clone the repository, run `python3 -m http.server 8765 --bind 127.0.0.1` from its root, then open [localhost:8765/examples/](http://localhost:8765/examples/). GitHub's HTML links show source; the local server runs the interfaces.
 
 ## Workflow
 

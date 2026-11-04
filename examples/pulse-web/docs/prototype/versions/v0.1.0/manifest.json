@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "tool_version": "1.0.0",
+  "version": "v0.1.0",
+  "state": "sealed",
+  "created_at": "2026-11-04T06:28:52+00:00",
+  "surfaces": [
+    "web"
+  ],
+  "deliverable_paths": [
+    "style-reference.html",
+    "index.html",
+    "design-system.html",
+    "DESIGN.md",
+    "QA.md",
+    "references.json",
+    "web/index.html",
+    "web/DESIGN.md"
+  ],
+  "approval": {
+    "direction": "A / Ink & Cadence",
+    "evidence": "由你定风格，直接完成三个案例",
+    "by": "user",
+    "recorded_at": "2026-11-04T06:31:39+00:00",
+    "style_reference_sha256": "302ad27c11ddc557b871a186c0272abb6abf72d3cbab24e920a38d08085690f2",
+    "meaning": "A record of a user decision supplied by the caller, not independently verified consent."
+  },
+  "approval_history": [
+    {
+      "direction": "A / Ink & Cadence",
+      "evidence": "由你定风格，直接完成三个案例",
+      "by": "user",
+      "recorded_at": "2026-11-04T06:31:39+00:00",
+      "style_reference_sha256": "302ad27c11ddc557b871a186c0272abb6abf72d3cbab24e920a38d08085690f2",
+      "meaning": "A record of a user decision supplied by the caller, not independently verified consent."
+    }
+  ],
+  "scope": "HTML prototype; no backend or production integration implied",
+  "prepared_at": "2026-11-04T06:31:39+00:00",
+  "sealed_at": "2026-11-04T06:48:07+00:00",
+  "validation_summary": "Root in-app browser checked agreed flows and rendered specification; exact viewports and limitations recorded in QA.md. Local synthetic HTML prototype, no native/backend/production acceptance.",
+  "sealed_artifact_sha256": {
+    "DESIGN.md": "a09eddb8b8cf2a85c004db57fad8b7db8994e840383badd11f40148ba290e5bc",
+    "QA.md": "153346d466b761aa4705a04584f61d1d78bcd66f6051c3e87dec303d4640b9e9",
+    "assets/app.css": "1e4ab8ee2c0f55878847a59c3c875095f6cab9415279358a8c7d0108be4776f9",
+    "assets/app.js": "5a0acc00b24c5c88da35edcaf4426431146ad0ea4463e835c164c39980a2ff99",
+    "design-system.html": "6936b6438eadbcc161142c3cc471152715229af1d5c715a1fbec1bd8990a6df4",
+    "index.html": "5e738e6a039a5c8e8db76fcb35524bba94b16eae25280670ffa4fb7ac184a9fb",
+    "references.json": "6dbc0dc2aec3eaf9977d06af3cbce91380684fafa59db969567fbfa56e428ffc",
+    "style-reference.html": "302ad27c11ddc557b871a186c0272abb6abf72d3cbab24e920a38d08085690f2",
+    "web/DESIGN.md": "2c7d783d99f65b6b7f308eb74e134ab11343e27826213faa217c84543864ef91",
+    "web/index.html": "5610a7a72b5480e6ef15d2743ea9fe29c3f4309d32b52991830802a675c7e788"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "tool_version": "1.0.0",
+  "version": "v0.1.0",
+  "state": "sealed",
+  "created_at": "2026-11-04T06:27:16+00:00",
+  "surfaces": [
+    "mobile"
+  ],
+  "deliverable_paths": [
+    "style-reference.html",
+    "index.html",
+    "design-system.html",
+    "DESIGN.md",
+    "QA.md",
+    "references.json",
+    "mobile/index.html",
+    "mobile/DESIGN.md"
+  ],
+  "approval": {
+    "direction": "A / The sun-worn journal",
+    "evidence": "由你定风格，直接完成三个案例",
+    "by": "user",
+    "recorded_at": "2026-11-04T06:28:48+00:00",
+    "style_reference_sha256": "fa623f5f9a09e004cd8fa6a821a4ebaabae570d692bc40ec5613d81ccc866a22",
+    "meaning": "A record of a user decision supplied by the caller, not independently verified consent."
+  },
+  "approval_history": [
+    {
+      "direction": "A / The sun-worn journal",
+      "evidence": "由你定风格，直接完成三个案例",
+      "by": "user",
+      "recorded_at": "2026-11-04T06:28:48+00:00",
+      "style_reference_sha256": "fa623f5f9a09e004cd8fa6a821a4ebaabae570d692bc40ec5613d81ccc866a22",
+      "meaning": "A record of a user decision supplied by the caller, not independently verified consent."
+    }
+  ],
+  "scope": "HTML prototype; no backend or production integration implied",
+  "prepared_at": "2026-11-04T06:28:48+00:00",
+  "sealed_at": "2026-11-04T06:48:07+00:00",
+  "validation_summary": "Root in-app browser checked agreed flows and rendered specification; exact viewports and limitations recorded in QA.md. Local synthetic HTML prototype, no native/backend/production acceptance.",
+  "sealed_artifact_sha256": {
+    "DESIGN.md": "7fe527b62ed7f43b8150fe805eb0d79891096b572c6f79c9eb1f24f8f0478c83",
+    "QA.md": "5b4636e11117af45cdba2b37c94f8fffb4394e65fbba7850185f2c8e11630ad6",
+    "assets/app.css": "6ab7ebb2973001fdfc8f3fc9d29131db315878fc8b16370bce5aed1ba78c9230",
+    "assets/app.js": "7f1ea45004d03f0c3abfb43d4e2f580959e1a52f5fbf014372e990509019bffd",
+    "assets/city.svg": "e7edf1e6bc0b16609897771849ea060776a1c77f2836957e52ab6e6d945932da",
+    "assets/coast.svg": "f7514d093abe1f2016ed0ff0da74d40a09be0b71b5bb82316366b277616f38ef",
+    "assets/roam-coast.png": "fc8b6521d34aef2867a55c5507968a91f7254d7284c4a224946fd545667ed3e7",
+    "assets/roam-coast.provenance.json": "28c85846434c950d2d4afea5f35da9679f26deabb40dfcd78a17da8709481ed1",
+    "assets/tokens.css": "d7ad7153e49bd37ac4791699a424e2a3fc89145e3b78b2de573e78bff60b1555",
+    "design-system.html": "a95bbffb559487a97970fb0e81be73dea90cc514b78cab545fb2549a46200333",
+    "index.html": "1da0287e75c911732faddc668313cc925c912baa35b9cb8faa417971f9072e70",
+    "mobile/DESIGN.md": "fc1e1b0eba957f08485745217a3347a86118d26c20ce1471255b803181f9556b",
+    "mobile/index.html": "f778e610926974c54a893a53d77f648754b559e72cfcd148dbd682b65b5be9fa",
+    "references.json": "1d924f4c26f59f1fb29d44044754a8b37275e7704083e7caf6159d78983a2255",
+    "style-reference.html": "fa623f5f9a09e004cd8fa6a821a4ebaabae570d692bc40ec5613d81ccc866a22"
+  }
+}
